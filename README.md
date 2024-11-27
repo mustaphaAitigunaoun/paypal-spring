@@ -31,3 +31,26 @@ Before running the project, ensure you have the following:
    ```bash
    git clone https://github.com/mustaphaAitigunaoun/paypal-spring.git
    cd paypal-spring
+
+2. **Configure PayPal Credentials**
+
+   ```bash
+   paypal.client.id=your-client-id
+   paypal.client.secret=your-client-secret
+   paypal.mode=sandbox # Change to 'live' for production
+   
+3. **Build and Run the Project**
+
+  Using Maven:
+  
+   ```bash
+   mvn clean install
+   mvn spring-boot:run
+
+   Using Gradle:
+
+    ```bash
+   ./gradlew bootRun
+
+
+   
