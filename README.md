@@ -48,7 +48,6 @@ Before running the project, ensure you have the following:
    mvn spring-boot:run
 
    Using Gradle:
-
     ```bash
    ./gradlew bootRun
 
